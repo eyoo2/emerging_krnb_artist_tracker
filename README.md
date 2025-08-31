@@ -4,5 +4,5 @@ The Emerging KR&amp;B Artist Tracker is a dashboard that displays the top 15 eme
 Weekly Spotify “measurements” are taken and stored in a PostgreSQL database. The top 15 artists with the fastest recent growth are identified from the database, then displayed on the dashboard through Streamlit. The feature section randomly chooses to display 6 artists from the top 15.
 
 ## DIRECTIONS
-To recreate on your local machine, find all comments with the keyword "REPLACE" to establish the correct connections on your local machine.
-You must also create a PostgreSQL database with the necessary columns using the provided SQL file.
+* To recreate on your local machine, find all comments with the keyword "REPLACE" in the Python files to create the correct setup on your local machine.
+* You must also create a PostgreSQL database with the necessary columns using the provided SQL file.
