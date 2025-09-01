@@ -5,4 +5,5 @@ Weekly Spotify “measurements” are taken and stored in a PostgreSQL database.
 
 ## DIRECTIONS
 * To recreate on your local machine, find all comments with the keyword "REPLACE" in the Python files to create the correct setup on your local machine.
+* You must install Apache Airflow to run the scheduled DAGs.
 * You must also create a PostgreSQL database with the necessary columns using the provided SQL file.
